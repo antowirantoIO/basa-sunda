@@ -1,8 +1,8 @@
 const { exec } = require("child_process");
 
 const defaultOptions = {
-  interpreter: "jaksel-interpreter.js",
-  target: "example/example1.jaksel",
+  interpreter: "basasunda.js",
+  target: "example/example1.sunda",
   contain: null
 }
 
