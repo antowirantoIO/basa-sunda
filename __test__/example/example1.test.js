@@ -6,7 +6,7 @@ describe('End To End Test example 1', () => {
   it('Should return as expected value', done => {
     e2eTest({
       target: "example/example1.jaksel",
-      contain: "Umur lu 21\nElu tua\nKalo gua umurnya 31\ngua lebih tua\nUdahan ah\n"
+      contain: "Umur lu 21\nElu tua\nlamun gua umurnya 31\ngua lebih tua\ncekap ah\n"
     }, done)
   })
 })

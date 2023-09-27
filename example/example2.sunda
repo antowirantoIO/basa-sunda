@@ -1,0 +1,16 @@
+ieuteh jumlah saruajeung 10
+nyetak "Jumlah: " + jumlah
+
+mangrupa jumlah saruajeung 11
+nyetak "Jumlah: " + jumlah
+
+ieuteh isHidup saruajeung leres
+nyetak "is hidup :" + isHidup
+
+diulang i neupika 10
+  lamun i leuwih gede 3
+    nyetak "loop ka " + i
+  munmeureun i saruajeung 3
+    nyetak "loop ka 3 : " + (i == 3)
+  cekap
+cekap

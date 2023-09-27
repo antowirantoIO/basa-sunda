@@ -1,0 +1,12 @@
+ieuteh bilanganAkhir saruajeung 10
+
+diulang i neupika bilanganAkhir
+    ieuteh cekGenap saruajeung i%2
+    lamun i leuwih gede 0
+        lamun cekGenap saruajeung 0
+            nyetak "Bilangan "+i+" - Genap"
+        munhenteu
+            nyetak "Bilangan "+i+" - Ganjil" 
+        cekap
+    cekap
+cekap

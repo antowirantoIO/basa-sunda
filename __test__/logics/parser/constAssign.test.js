@@ -3,12 +3,12 @@ const getJsFormat = require('../test-parser-helper')
 
 describe('Test Const assign', () => {
   it('Should parse string correctly', () => {
-    const test1 = constAssign("seriously foo itu 'bar'")
+    const test1 = constAssign("nyaeta foo saruajeung 'bar'")
     expect(test1.exp).toBe(`const foo = 'bar';`)
   })
 
   it('Should parse number correctly', () => {
-    const test1 = constAssign("seriously foo itu 123")
+    const test1 = constAssign("nyaeta foo saruajeung 123")
     expect(test1.exp).toBe(`const foo = 123;`)
   })
 
@@ -21,8 +21,8 @@ describe('Test Const assign', () => {
 
   it('Should return correctly flexing', () => {
     const jsFormat = getJsFormat(`
-      seriously foo itu 123
-      spill foo
+      nyaeta foo saruajeung 123
+      nyetak foo
     `)
     expect(jsFormat).not.toBeNull()
     let shouldMatch = [

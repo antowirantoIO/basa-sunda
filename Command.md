@@ -1,42 +1,42 @@
 ## Command
 
-Some command just like javascript, the only different is keyword and this language will translate to javascript and run as javascript. I know, this is just for fun.
+Sababaraha paréntah sapertos JavaScript, ngan ukur bédana nyaéta kecap konci sareng basa ieu bakal narjamahkeun kana JavaScript sareng dijalankeun salaku JavaScript. Kuring nyaho, ieu ngan keur senang.
 ### Variable
 
-Assign variable
+Napelkeun variabel
 ```
-literally foo itu "hello world"
+ieuteh foo saruajeung "hello world"
 // let foo = "hello world"
 
-seriously foo itu 123
+nyaeta foo saruajeung 123
 // const foo = 123
 ```
 
-Reassign variable
+Napelkeun deui variabel
 ```
-whichis foo itu "hello world 2"
+mangrupa foo saruajeung "hello world 2"
 // foo = "hello world 2"
 ```
 
 **Boolean**
 
 ```
-literally foo itu positive vibes
+ieuteh foo saruajeung leres
 // let foo = true
 
-literally foo itu worth it
+ieuteh foo saruajeung wajar
 // let foo = true
 
-literally foo itu negative vibes
+ieuteh foo saruajeung lepat
 // let foo = false
 ```
 
 ### Print / Console.log
 ```
-spill "Hello world"
+nyetak "Hello world"
 // console.log("Hello world")
 
-spill foo
+nyetak foo
 // console.log(foo)
 ```
 
@@ -44,9 +44,9 @@ spill foo
 ### Condition
 
 ```
-kalo foo itu "Hello world"
-  spill "its hello world"
-udahan
+lamun foo saruajeung "Hello world"
+  nyetak "its hello world"
+cekap
 
 // transform to
 if(foo == "Hello world"){
@@ -55,13 +55,13 @@ if(foo == "Hello world"){
 ```
 
 ```
-kalo foo lebih gede 3
-  spill "its bigger than 3"
-perhaps foo itu 3
-  spill "foo is 3"
-kalogak
-  spill "its smaller than 3"
-udahan
+lamun foo leuwih gede 3
+  nyetak "its bigger than 3"
+munmeureun foo saruajeung 3
+  nyetak "foo is 3"
+munhenteu
+  nyetak "its smaller than 3"
+cekap
 
 // transform to
 if(foo > 3){
@@ -74,22 +74,22 @@ if(foo > 3){
 ```
 
 Comparison : 
-- `itu`: ' == ',
-- `gak`: ' != ',
-- `lebih gede`: ' > ',
-- `lebih kecil`: ' < ',
-- `lebih gede sama dengan`: ' >= ',
-- `lebih kecil sama dengan`: ' <= '
+- `saruajeung`: ' == ',
+- `henteu`: ' != ',
+- `leuwih gede`: ' > ',
+- `leuwih leutik`: ' < ',
+- `leuwih gede sarua jeung`: ' >= ',
+- `leuwih leutik sarua jeung`: ' <= '
 
 ### Loop
 
 #### **`For` loop**:
 ```
-fomo i endup 10
-  kalo i lebih gede 3
-    spill "loop ke " + i
-  udahan
-udahan
+diulang i neupika 10
+  lamun i leuwih gede 3
+    nyetak "loop ke " + i
+  cekap
+cekap
 
 // transform to
 for (let i = 0; i < 10; i++) {
@@ -101,9 +101,9 @@ for (let i = 0; i < 10; i++) {
 
 #### **`For of` loop**:
 ```
-fomo semua foo dari bar
-  spill foo
-udahan
+diulang kabeh foo tina bar
+  nyetak foo
+cekap
 
 // transform to
 for (const foo of bar) {
@@ -113,59 +113,59 @@ for (const foo of bar) {
 
 #### **`break`** and **`continue`**:
 ```
-stop
+eureun
 // break;
 
-skip
+luncat
 // continue;
 ```
 
 ### Function
 ```
-so about my_story
-    literally umur itu 21
-    spill "Umur lu " + umur
-thats it sih
+jadi ngeunaan my_story
+    ieuteh umur saruajeung 21
+    nyetak "Umur lu " + umur
+eta sih
 
-call my_story
+geroan my_story
 
-so about fungsi_param_banyak a b c
-    spill "a: " + a
-    spill "b: " + b
-    spill "c: " + c
-thats it sih
+jadi ngeunaan fungsi_param_banyak a b c
+    nyetak "a: " + a
+    nyetak "b: " + b
+    nyetak "c: " + c
+eta sih
 
-call fungsi_param_banyak 3 4 5
+geroan fungsi_param_banyak 3 4 5
 ```
 
 ### Async Function
 ```
-overthinking my_story
-    literally umur itu 21
-    spill "Umur lu " + umur
-thats it sih
+mikiran my_story
+    ieuteh umur saruajeung 21
+    nyetak "Umur lu " + umur
+eta sih
 
-call my_story
+geroan my_story
 
-so about fungsi_param_banyak a b c
-    spill "a: " + a
-    spill "b: " + b
-    spill "c: " + c
-thats it sih
+jadi ngeunaan fungsi_param_banyak a b c
+    nyetak "a: " + a
+    nyetak "b: " + b
+    nyetak "c: " + c
+eta sih
 
-call fungsi_param_banyak 3 4 5
+geroan fungsi_param_banyak 3 4 5
 ```
 
 ### Try Catch & Exception
 ```
-trust issue
-  spill "Something wrong"
-  toxic "Error message"
-backstab
-  spill "Catch error"
-yaudahlahya
-  spill "finish finally"
-udahan
+cobaan
+  nyetak "Something wrong"
+  parah "Error message"
+nyekel
+  nyetak "Catch error"
+tungtungna
+  nyetak "finish finally"
+cekap
 
 
 // transform to

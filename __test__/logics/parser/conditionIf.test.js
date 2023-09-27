@@ -3,27 +3,27 @@ const getJsFormat = require('../test-parser-helper')
 
 describe('Test Condition If', () => {
   it('Should parse string correctly', () => {
-    const test1 = conditionIf("kalo foo itu 'bar'")
+    const test1 = conditionIf("lamun foo saruajeung 'bar'")
     expect(test1.exp).toBe(`if (foo  ==  'bar')`)
   })
 
   it('Should parse number correctly', () => {
-    const test1 = conditionIf("kalo foo itu 123")
+    const test1 = conditionIf("lamun foo saruajeung 123")
     expect(test1.exp).toBe(`if (foo  ==  123)`)
   })
 
   it('Should return null if not match', () =>{
-    const test1 = conditionIf("kal foo itu 123")
-    const test2 = conditionIf("kaloo foo i 123")
+    const test1 = conditionIf("kal foo saruajeung 123")
+    const test2 = conditionIf("lamuno foo i 123")
     expect(test1).toBe(null)
     expect(test2).toBe(null)
   })
 
   it('Should return correctly flexing', () => {
     const jsFormat = getJsFormat(`
-      kalo foo itu 123
-        spill "its 123"
-      udahan
+      lamun foo saruajeung 123
+        nyetak "its 123"
+      cekap
     `)
     expect(jsFormat).not.toBeNull()
     let shouldMatch = [

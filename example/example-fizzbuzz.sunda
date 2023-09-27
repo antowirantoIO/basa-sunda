@@ -1,0 +1,17 @@
+diulang nomor neupika 100
+  lamun nomor henteu 0
+    ieuteh hasil saruajeung ""
+    nyaeta fizz saruajeung nomor % 3
+    nyaeta buzz saruajeung nomor % 5
+    lamun fizz saruajeung 0
+      mangrupa hasil saruajeung hasil + "fizz"
+    cekap
+    lamun buzz saruajeung 0
+      mangrupa hasil saruajeung hasil + "buzz"
+    cekap
+    lamun hasil saruajeung ""
+      mangrupa hasil saruajeung nomor
+    cekap
+    nyetak hasil
+  cekap
+cekap

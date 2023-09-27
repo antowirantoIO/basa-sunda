@@ -47,36 +47,36 @@ node jaksel-interpreter.js example/example1.jaksel
 Example : 
 
 ```
-literally umur itu 21
-spill "Umur lu " + umur
-kalo umur lebih gede 20
-  spill "Elu tua"
-  literally umurgua itu umur + 10
-  spill "Kalo gua umurnya " + umurgua
-  kalo umurgua lebih gede 30
-    spill "gua lebih tua"
-  udahan
-kalogak
-  spill "dasar bocil"
-udahan
-spill "Udahan ah"
+ieuteh umur saruajeung 21
+nyetak "Umur lu " + umur
+lamun umur leuwih gede 20
+  nyetak "Elu tua"
+  ieuteh umurgua saruajeung umur + 10
+  nyetak "lamun gua umurnya " + umurgua
+  lamun umurgua leuwih gede 30
+    nyetak "gua lebih tua"
+  cekap
+munhenteu
+  nyetak "dasar bocil"
+cekap
+nyetak "cekap ah"
 ```
 
 ```
-literally jumlah itu 10
-spill "Jumlah: " + jumlah
+ieuteh jumlah saruajeung 10
+nyetak "Jumlah: " + jumlah
 
-whichis jumlah itu 11
-spill "Jumlah: " + jumlah
+mangrupa jumlah saruajeung 11
+nyetak "Jumlah: " + jumlah
 
-literally isHidup itu positive vibes
-spill "is hidup :" + isHidup
+ieuteh isHidup saruajeung leres
+nyetak "is hidup :" + isHidup
 
-fomo i endup 10
-  kalo i lebih gede 3
-    spill "loop ke " + i
-  udahan
-udahan
+diulang i neupika 10
+  lamun i leuwih gede 3
+    nyetak "loop ke " + i
+  cekap
+cekap
 ```
 
 ### Command

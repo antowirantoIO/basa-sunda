@@ -1,0 +1,17 @@
+ieuteh itungan1 saruajeung 0
+ieuteh itungan2 saruajeung 1
+ieuteh itungan3 saruajeung 0
+
+ieuteh output saruajeung itungan1 + ', ' + itungan2
+
+diulang i neupika 10
+
+    mangrupa itungan3 saruajeung itungan1 + itungan2
+    mangrupa output saruajeung output + ", " + itungan3
+    mangrupa itungan1 saruajeung itungan2
+    mangrupa itungan2 saruajeung itungan3
+
+cekap
+
+nyetak output
+

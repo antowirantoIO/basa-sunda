@@ -1,0 +1,9 @@
+diulang i neupika 5
+    ieuteh bintang saruajeung ""
+
+    diulang j neupika i
+        mangrupa bintang saruajeung bintang+"*"
+    cekap
+
+    nyetak bintang
+cekap

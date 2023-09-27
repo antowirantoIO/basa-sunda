@@ -1,0 +1,13 @@
+ieuteh yuswa saruajeung 21
+nyetak "yuswa maneh " + yuswa
+lamun yuswa leuwih gede 20
+  nyetak "Maneh Kolot"
+  ieuteh yuswaurang saruajeung yuswa + 10
+  nyetak "lamun urang yuswa " + yuswaurang
+  lamun yuswaurang leuwih gede 30
+    nyetak "urang leuwih kolot"
+  cekap
+munhenteu
+  nyetak "dasar bocil"
+cekap
+nyetak "cekap ah"

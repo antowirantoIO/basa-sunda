@@ -1,0 +1,49 @@
+jadi ngeunaan my_story
+    ieuteh umur saruajeung 21
+    nyetak "Umur maneh " + umur
+eta sih
+
+jadi ngeunaan ngeloop berapaKali
+    diulang i neupika berapaKali
+      lamun i leuwih gede 3
+        nyetak "loop ka " + i
+      munmeureun i saruajeung 3
+        nyetak "loop ka 3 : " + (i == 3)
+      cekap
+    cekap
+eta sih
+
+jadi ngeunaan fungsi_param a
+    nyetak "a: " + a
+eta sih
+
+jadi ngeunaan fungsiMultiParam a b c
+    nyetak "argumen pertama: " + a
+    nyetak "argumen kadua: " + b
+    nyetak "argumen katilu: " + c
+eta sih
+
+geroan my_story
+nyetak "\n"
+
+geroan ngeloop 20
+nyetak "\n"
+
+ieuteh nama saruajeung "adi"
+
+geroan fungsi_param nama
+nyetak "\n"
+
+geroan fungsi_param "Rayhan"
+nyetak "\n"
+
+geroan fungsi_param 3
+nyetak "\n"
+
+geroan fungsiMultiParam 3 4 5
+nyetak "\n"
+
+ieuteh nama2 saruajeung "budi"
+
+geroan fungsiMultiParam 2 nama2 "and then Romeo says \"I love you\" to Juliet"
+nyetak "\n"
