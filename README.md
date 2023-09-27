@@ -1,37 +1,33 @@
-# Jaksel Script
+# Sunda Script
 
-Jaksel Script is a new programming language, very modern, easy to learn, using Indonesia-slang language. No programming experience required.
+Sunda Script is a new programming language, very modern, easy to learn, using Indonesia-slang language. No programming experience required.
 
 Thank you for all your contributions, share, star, and everything.
 
 ## Instalation & Run
 
-Install from npm
-```bash
-npm install -g jaksel-language
-```
-Or Clone this repository
+Clone this repository
 
 ```bash
-git clone https://github.com/RioChndr/jaksel-language.git
+git clone https://github.com/antowirantoIO/basa-sunda.git
 ```
 
 ### Run
 
-If you install from npm, run jaksel script using `jaksel` command
+If you install from npm, run Sunda script using `sunda` command
 
 ```bash
-jaksel example/example1.jaksel
+sunda example/example1.sunda
 ```
 
 Or run from this repository
 ```
-node jaksel-interpreter.js example/example1.jaksel
+node basasunda.js example/example1.sunda
 ```
 
 ## Table Of Content
 
-* [Jaksel Script](#jaksel-script)
+* [Sunda Script](#Sunda-script)
    * [Instalation &amp; Run](#instalation--run)
    * [Table Of Content](#table-of-content)
    * [Example](#example)
@@ -47,14 +43,14 @@ node jaksel-interpreter.js example/example1.jaksel
 Example : 
 
 ```
-ieuteh umur saruajeung 21
-nyetak "Umur lu " + umur
-lamun umur leuwih gede 20
-  nyetak "Elu tua"
-  ieuteh umurgua saruajeung umur + 10
-  nyetak "lamun gua umurnya " + umurgua
-  lamun umurgua leuwih gede 30
-    nyetak "gua lebih tua"
+ieuteh yuswa saruajeung 21
+nyetak "yuswa maneh " + yuswa
+lamun yuswa leuwih gede 20
+  nyetak "Maneh Kolot"
+  ieuteh yuswaurang saruajeung yuswa + 10
+  nyetak "lamun urang yuswa " + yuswaurang
+  lamun yuswaurang leuwih gede 30
+    nyetak "urang leuwih kolot"
   cekap
 munhenteu
   nyetak "dasar bocil"
@@ -63,18 +59,21 @@ nyetak "cekap ah"
 ```
 
 ```
-ieuteh jumlah saruajeung 10
-nyetak "Jumlah: " + jumlah
-
-mangrupa jumlah saruajeung 11
-nyetak "Jumlah: " + jumlah
-
-ieuteh isHidup saruajeung leres
-nyetak "is hidup :" + isHidup
-
-diulang i neupika 10
-  lamun i leuwih gede 3
-    nyetak "loop ke " + i
+diulang nomor neupika 100
+  lamun nomor henteu 0
+    ieuteh hasil saruajeung ""
+    nyaeta fizz saruajeung nomor % 3
+    nyaeta buzz saruajeung nomor % 5
+    lamun fizz saruajeung 0
+      mangrupa hasil saruajeung hasil + "fizz"
+    cekap
+    lamun buzz saruajeung 0
+      mangrupa hasil saruajeung hasil + "buzz"
+    cekap
+    lamun hasil saruajeung ""
+      mangrupa hasil saruajeung nomor
+    cekap
+    nyetak hasil
   cekap
 cekap
 ```
@@ -87,12 +86,8 @@ Some command just like javascript, the only different is keyword and this langua
 
 ### Disclaimer
 
-This project just for fun, I don't want to hurt anyone. Just from idea "what if jaksel language is a programming language" and make it true. This project only for education purpose, not for production ready.
+This project just for fun, I don't want to hurt anyone. Just from idea "what if Sunda language is a programming language" and make it true. This project only for education purpose, not for production ready.
 
 ## Showcase
 
-Some cool project from you, submit your project like highlight text, jaksel-to-js, etc. Make PR link to your repo !. Don't limit your creativity
-
-### Highlight Text Editor
-- [vim-jaksel](https://github.com/cocatrip/vim-jaksel) jaksel programming language plugin for (n)vim
-- [vscode-jaksel-language-support](https://github.com/ngupuk/vscode-jaksel-language-support) visual studio code extension for syntax highlighting, code snippet, and auto formatting
+Some cool project from you, submit your project like highlight text, Sunda-to-js, etc. Make PR link to your repo !. Don't limit your creativity
